@@ -4,7 +4,7 @@ const digitAtIndex = (number, index) => {
 
 const numOfDigits = number => {
   return Math.ceil(Math.log10(number + 1));
-}
+};
 
 const check = number => {
   let testNumber = 0;
